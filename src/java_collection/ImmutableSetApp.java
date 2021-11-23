@@ -25,7 +25,7 @@ public class ImmutableSetApp {
              System.out.println(emp);
          }
          
-         Set<String> set = Set.of("Julia","Ningsih","Lubis");
+//         Set<String> set = Set.class("Julia","Ningsih","Lubis");
     }
     
 }

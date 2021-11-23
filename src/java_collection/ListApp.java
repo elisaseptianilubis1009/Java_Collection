@@ -37,7 +37,6 @@ public class ListApp {
         for(String text : linkedList){
             System.out.println(text);
         }
-        System.out.println("Length :"+linkedList.size());
-    }
+        System.out.println("Length :"+linkedList.size());   }
 
 }
