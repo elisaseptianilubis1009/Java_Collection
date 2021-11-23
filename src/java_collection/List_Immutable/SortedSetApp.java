@@ -8,11 +8,12 @@ import java.util.TreeSet;
 public class SortedSetApp {
     
     public static void main(String[] args) {
-        SortedSet<Person> people= new TreeSet<>(new PersonComparator().reversed());
+        SortedSet<Person> people= new TreeSet<>(new PersonComparator().reversed());//Gunakan Method Reversed() untuk kebalikannya
         
         people.add(new Person("Elisa"));
         people.add(new Person("Septiani"));
         people.add(new Person("Lubis"));
+        people.add(new Person("Aditama"));
         
         for(Person person : people){
             System.out.println(person.getName());
