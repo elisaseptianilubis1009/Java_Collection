@@ -25,6 +25,7 @@ public class CollectionApp {
         
         for(String name : names){
             System.out.println(name);
+            System.out.println(names.size());
         }
         
         System.out.println(names.contains("Septiani"));
